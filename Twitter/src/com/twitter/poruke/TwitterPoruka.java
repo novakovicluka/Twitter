@@ -25,9 +25,9 @@ public class TwitterPoruka {
 	
 	public void setKorisnik(String korisnik) {
 	if (korisnik==null || korisnik == "")
-	throw new RuntimeException(
-	"Ime korisnika mora biti uneto");
+	throw new RuntimeException("Ime korisnika mora biti uneto");
 	this.korisnik = korisnik;
+	
 	}
 	
 	/**
